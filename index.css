@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+background-image: url(imagenes/wallpaper/european-network-disputes-academy-16-october-2018-london--immagineheader.jpg);
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+.container-login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50% );
+    width: 370px;
+    height: 400px;
+    background-color: hsla(0, 0%, 30%, 0.8);
+    box-shadow: 0 0 10px #000;
+    border-radius: 5px;
+}
+.div_registrar_usu{
+    text-align: center;
+    margin-top: 140px;
+}
+.a_administradores{
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+.a_usuarios{
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    padding-left: 123px;
+    padding-right: 123px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+.div_registrar_usu a:hover{
+background-color: white;
+color: black;
+border: black solid 1px;
+}
+form{
+    margin-top: 40px;
+    text-align: center;
+}
+.container-login label{
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-shadow: black 3px 3px;
+   
+}
+.container-login input[type="text"], input[type="password"]{
+    margin-top: 20px;
+    align-items: center;
+    width: 85%;  
+    height: 40px;
+}
+.select_login{
+    margin-top: 20px;
+    width: 85%; 
+    height: 40px;
+    background-color:white;
+    color: black;
+}
+.container-login input[type="submit"]{
+margin-top: 20px;
+margin-left: 5px;
+align-items: center;
+width: 85%;  
+height: 40px;
+background:rgb(0, 0, 0) ;
+color: white;
+border:black solid 2px
+}
+input[type="submit"]:hover{
+    cursor: pointer;
+    box-shadow: 0 4px 16px rgb(255, 255, 255);
+    transition: all 0.2s ease;
+}
+.password{
+text-align: center;
+margin-top: 15px;
+}
+.password a{
+color: white;
+font-weight: bold;
+text-shadow: black 1px 1px;
+}
+.recuperar{
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+    text-shadow: black 1px 1px;
+    font-weight: bold
+}
+.recuperar a{
+    color: white;
+    text-shadow: black 1px 1px;
+    font-weight: bold;
+}
+/***********************************Fin Del Index****************************************
